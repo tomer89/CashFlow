@@ -9,8 +9,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.zaks.cashflow.MainActivity">
 
-    <TextView
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/profile"
+        android:src="@android:drawable/sym_def_app_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonMapMain"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/profile"
+        android:src="@android:drawable/ic_menu_myplaces"
+        android:layout_alignTop="@+id/profile" />
+
 </RelativeLayout>
